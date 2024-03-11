@@ -2,11 +2,6 @@ import React, { useContext } from 'react'
 import { UserContext } from './App'
 import Home from './Home';
 import Register from './Register';
-
-
-
-
-
 export default function Login() {
     const {flag, setFlag}=useContext(UserContext);
 // if (flag == 1) {
