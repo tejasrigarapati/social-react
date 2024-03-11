@@ -1,7 +1,5 @@
 import React, { useContext } from 'react'
-import Home from './Home'
 import { UserContext } from './App'
-
 export default function Register() {
     const {flag,setFlag}=useContext(UserContext);
   return (
